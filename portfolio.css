@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/* nav bar section */
+.nav-bar {
+    padding: 12px;
+    /* border: 1px green solid; */
+    width: 100%;
+    background-color: rgb(80, 76, 76);
+    text-align: center;
+    position: fixed; 
+    top: 0;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    float: center;
+    color: white;
+    padding: 14px;
+}
+
+/* intro section */
+.intro {
+    background-image: url(./maxime-le-conte-des-floris-151374-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 52px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+.more-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.intro h1, h3 {
+    background-color: #8080804a;
+    border: 1px white solid;
+}
+
+.intro h1 {
+    padding: 5px;
+    border-radius: 4%;
+}
+
+.intro h3 {
+    width: 86%;
+    padding: 6px;
+    border-radius: 4%;
+}
+
+.intro-btn {
+    color: white;
+    font-size: medium;
+    border: 1px white solid;
+    padding: 8px;
+    background-color: #808080ab;
+}
